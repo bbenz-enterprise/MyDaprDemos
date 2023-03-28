@@ -15,7 +15,7 @@ env:
   LOCATION: "eastus"
 
   #The version of the dapr runtime version to deploy.
-  DAPR_VERSION: "1.4.3"
+  DAPR_VERSION: "1.10.4"
 
   # The version of k8s control plane.
   K8S_VERSION: "1.24.9"
