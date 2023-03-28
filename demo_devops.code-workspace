@@ -23,6 +23,7 @@
 			"pwsh",
 			"tempfiles"
 		],
-		"powershell.cwd": "/workspaces/MyDaprDemos/DevOps"
+		"powershell.cwd": "c:\\Users\\bbenz\\OneDrive - Microsoft\\Documents\\GitHub\\MyDaprDemos\\DevOps",
+		"java.compile.nullAnalysis.mode": "automatic"
 	}
 }

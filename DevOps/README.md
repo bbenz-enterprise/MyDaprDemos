@@ -9,6 +9,12 @@ Open the _demo_devops.code-workspace_ file and click the **Open Workspace** butt
 
 To provision the infrastructure before the demo execute the following command in the terminal. This code is automatically run by the _demo.ps1_ script if the `-env` parameter is passed and *./components/local/local_secrets.json* file is not found.
 
+NOTE: This script requires PSYaml, a PowerShell module used to interpret Yaml formatted strings - https://www.powershellgallery.com/packages/PSYaml/.  To install this module: 
+
+```
+Install-Module -Name PSYaml -RequiredVersion 1.0.2 -Scope CurrentUser
+``` 
+
 ```
 ./demo.ps1 -deployOnly
 ``` 
